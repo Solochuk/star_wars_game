@@ -21,6 +21,7 @@ pythin3 -m venv .venv(лінукс)
 pip install pyglet
 
 Використання:
+запуск через main.py!
 
 Управління
 Анакін:
