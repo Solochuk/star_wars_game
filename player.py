@@ -127,7 +127,7 @@ class Player(pyglet.sprite.Sprite):
             if not self.jump_animation_played:
                 self.image = self.jump_animation
                 self.jump_animation_played = True
-            # Reset animation after jump is complete
+                
             elif self.on_ground:
                 self.is_jumping = False
                 self.jump_animation_played = False
